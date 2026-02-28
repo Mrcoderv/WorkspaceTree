@@ -8,6 +8,7 @@
 
 ---
 
+<<<<<<< HEAD
 ## 📁 Where to Find Extension Files
 
 Want to access the extension folder on your computer? Here's where WorkspaceTree is installed:
@@ -21,16 +22,44 @@ Want to access the extension folder on your computer? Here's where WorkspaceTree
 ### Quick Access
 
 **From VS Code (Easiest):**
+=======
+## Quick Access
+
+**From VS Code (Easiest):**
+
+>>>>>>> 18f725f (Add demo video to README)
 1. Go to **Extensions** (`Ctrl+Shift+X`)
 2. Search "WorkspaceTree"
 3. Click gear icon ⚙️ → "Show in File Manager"
 
+<<<<<<< HEAD
 **Windows:** Press `Win+R`, paste path above, press Enter  
 **macOS:** Press `Cmd+Shift+G` in Finder, paste path above, press Enter  
+=======
+**Windows:** Press `Win+R`, paste path above, press Enter
+**macOS:** Press `Cmd+Shift+G` in Finder, paste path above, press Enter
+>>>>>>> 18f725f (Add demo video to README)
 **Linux:** Press `Ctrl+L` in File Manager, paste path above, press Enter
 
 📖 **For detailed file access instructions**, see [USER_FILE_ACCESS.md](USER_FILE_ACCESS.md)
 
+<<<<<<< HEAD
+=======
+## Video
+
+![Demo Video](./video.webm)
+
+## 📁 Where to Find Extension Files
+
+Want to access the extension folder on your computer? Here's where WorkspaceTree is installed:
+
+| OS                | Location                                                         |
+| ----------------- | ---------------------------------------------------------------- |
+| **Windows** | `%APPDATA%\.vscode\extensions\raghavvian.workspace-tree-1.0.0` |
+| **macOS**   | `~/.vscode/extensions/raghavvian.workspace-tree-1.0.0`         |
+| **Linux**   | `~/.vscode/extensions/raghavvian.workspace-tree-1.0.0`         |
+
+>>>>>>> 18f725f (Add demo video to README)
 ---
 
 ## ✨ Features
@@ -40,7 +69,11 @@ Want to access the extension folder on your computer? Here's where WorkspaceTree
 | **One-Command Export** | Press `Ctrl+Shift+P` and run **WorkspaceTree: Export Directory Structure**  |
 | **Visual Icons**       | 📁 Folders and 📄 Files in Markdown mode                                            |
 | **Smart Filtering**    | Automatically excludes `node_modules`, `.git`, `dist`, hidden files, and more |
+<<<<<<< HEAD
 | **Flexible Formats**   | Export as **Markdown** (with code fences) or **Plain Text**            |
+=======
+| **Flexible Formats**   | Export as**Markdown** (with code fences) or **Plain Text**              |
+>>>>>>> 18f725f (Add demo video to README)
 | **Path Options**       | Choose between**Relative** names or **Full Absolute** paths             |
 | **Non-Blocking**       | Fully asynchronous using `fs.promises` — never freezes VS Code                   |
 | **Error Resilient**    | Permission errors are logged to Output Channel, not crashes                         |
