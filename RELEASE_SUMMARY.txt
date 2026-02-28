@@ -1,0 +1,179 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                   🚀 WORKSPACE TREE - RELEASE PACKAGE v1.0.0                   ║
+║                                                                                ║
+║                           READY FOR DISTRIBUTION                              ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📦 PACKAGE DETAILS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Filename:           workspace-tree-1.0.0.vsix
+File Size:          835 KB (Compressed)
+Version:            1.0.0
+Release Date:       February 28, 2026
+Publisher:          Raghavvian
+License:            MIT
+Repository:         https://github.com/Mrcoderv/WorkspaceTree
+MD5 Checksum:       4b8ea126f26157cea9557651271f9a23
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 INCLUDED FILES (12 Files)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Documentation:
+  ✓ README.md              (7.51 KB)  - Complete user guide
+  ✓ PUBLISHING.md          (9.6 KB)   - Developer guide
+  ✓ CHANGELOG.md           (2.85 KB)  - Version history
+  ✓ RELEASE.md             (5.43 KB)  - Release information
+  ✓ LICENSE.txt            (1.1 KB)   - MIT License
+
+Configuration:
+  ✓ package.json           (2.86 KB)  - Extension manifest
+  ✓ extension.vsixmanifest (3 KB)     - VSIX metadata
+  ✓ launch.json            (0.72 KB)  - Debug config
+  ✓ tasks.json             (0.29 KB)  - Build tasks
+
+Code & Assets:
+  ✓ out/extension.js       (14.55 KB) - Compiled JavaScript
+  ✓ images/icon.png        (1.02 MB)  - Extension icon
+  ✓ [Content_Types].xml    (0.46 KB)  - XML metadata
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✨ FEATURES & CAPABILITIES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ One-Command Export        - Ctrl+Shift+P → Export Directory Structure
+✅ Multiple Formats          - Markdown or Plain Text output
+✅ Smart Filtering           - Auto-exclude node_modules, .git, dist, etc.
+✅ Path Flexibility          - Relative or absolute paths
+✅ Hidden File Control       - Toggle inclusion of dot files
+✅ Visual Icons              - 📁 Folders and 📄 Files in Markdown
+✅ Non-Blocking Processing   - Fully async, never freezes VS Code
+✅ Error Resilience          - Graceful permission handling
+✅ Status Feedback           - Real-time scanning indicator
+✅ Cross-Platform            - Windows, macOS, and Linux support
+✅ Customizable              - Configure exclusion patterns via settings
+✅ Output Logging            - Full debug logging to Output Channel
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 RELEASE OPTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OPTION 1: Upload to VS Code Marketplace (Official)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Command:
+    npx vsce login Raghavvian
+    npm run publish
+
+  Result:
+    Published to: https://marketplace.visualstudio.com/items?itemName=Raghavvian.workspace-tree
+    Propagation: 5-10 minutes
+
+  Benefits:
+    • Official distribution
+    • Automatic updates
+    • Direct VS Code integration
+    • Easy discoverability
+
+OPTION 2: Share VSIX File Directly
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  File Location:
+    /home/mrrv/files/workspace-tree-1.0.0.vsix
+
+  Distribution Methods:
+    • Email
+    • GitHub Releases
+    • Cloud Storage (Drive, Dropbox, etc.)
+    • File Hosting Services
+
+  User Installation:
+    1. Download workspace-tree-1.0.0.vsix
+    2. Open VS Code → Extensions (Ctrl+Shift+X)
+    3. Click ... → "Install from VSIX..."
+    4. Select the file
+
+OPTION 3: Create GitHub Release
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Commands:
+    git tag v1.0.0
+    git push origin v1.0.0
+
+  On GitHub:
+    1. Go to Releases
+    2. Create new release from v1.0.0 tag
+    3. Attach workspace-tree-1.0.0.vsix
+    4. Publish
+
+  Download URL:
+    https://github.com/Mrcoderv/WorkspaceTree/releases/download/v1.0.0/workspace-tree-1.0.0.vsix
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ RELEASE CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[✓] TypeScript compilation complete
+[✓] Code linting passed
+[✓] All tests verified
+[✓] Documentation complete
+[✓] Version number set
+[✓] Changelog updated
+[✓] License included
+[✓] Icon included (128×128)
+[✓] VSIX package created
+[✓] Package verified
+[✓] Checksums generated
+[✓] Ready for distribution
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 SYSTEM REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+VS Code:        1.85 or later
+Operating System: Windows / macOS / Linux
+Node.js:        18+ (for development only)
+Memory:         50 MB minimum
+Disk Space:     50 MB minimum
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔐 SECURITY & COMPLIANCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ MIT License               - Open source, commercially friendly
+✓ No External Dependencies  - Uses only VS Code API & Node.js built-ins
+✓ No Telemetry             - User data safe, no tracking
+✓ Permission Safe          - Errors logged gracefully
+✓ Code Quality             - TypeScript strict mode
+✓ Linted                   - ESLint verified
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📞 SUPPORT & RESOURCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Repository:    https://github.com/Mrcoderv/WorkspaceTree
+Issues:        https://github.com/Mrcoderv/WorkspaceTree/issues
+Discussions:   https://github.com/Mrcoderv/WorkspaceTree/discussions
+Marketplace:   https://marketplace.visualstudio.com/publishers/Raghavvian
+Publisher:     Raghavvian
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎉 STATUS: READY FOR RELEASE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Your WorkspaceTree extension is fully tested, documented, and ready to go live!
+
+Next Steps:
+1. Choose a release option above
+2. Publish using your preferred method
+3. Share the link with your audience
+4. Monitor feedback and issues
+
+Thank you for using WorkspaceTree! 🚀
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Generated: 2026-02-28
+Version: 1.0.0
+Release Type: Initial Release

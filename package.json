@@ -1,0 +1,104 @@
+{
+  "name": "workspace-tree",
+  "displayName": "WorkspaceTree",
+  "description": "Export your workspace directory structure to the clipboard in Markdown or plain text format.",
+  "version": "1.0.0",
+  "publisher": "Raghavvian",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mrcoderv/WorkspaceTree"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Visualization"
+  ],
+  "keywords": [
+    "workspace",
+    "directory",
+    "tree",
+    "export",
+    "markdown",
+    "clipboard"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#1e1e2e",
+    "theme": "dark"
+  },
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "workspace-tree.export",
+        "title": "WorkspaceTree: Export Directory Structure",
+        "icon": "$(file-symlink-directory)"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "workspace-tree.export",
+          "group": "navigation"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "workspace-tree.export"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "WorkspaceTree",
+      "properties": {
+        "workspaceTree.defaultIncludeHidden": {
+          "type": "boolean",
+          "default": false,
+          "description": "Whether to include hidden files/folders (starting with '.') by default."
+        },
+        "workspaceTree.defaultPathFormat": {
+          "type": "string",
+          "enum": ["relative", "full"],
+          "default": "relative",
+          "description": "Default path format for exported tree."
+        },
+        "workspaceTree.defaultExportType": {
+          "type": "string",
+          "enum": ["markdown", "plaintext"],
+          "default": "markdown",
+          "description": "Default export format for the directory tree."
+        },
+        "workspaceTree.excludePatterns": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": ["node_modules", ".git", "dist", "out", ".next", "__pycache__", ".DS_Store"],
+          "description": "Directory/file names to always exclude from the tree."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js",
+    "package": "vsce package --no-update-package-json",
+    "vsix": "npm run compile && vsce package --no-update-package-json",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vscode/test-electron": "^2.3.0",
+    "@vscode/vsce": "^2.22.0",
+    "eslint": "^8.0.0",
+    "typescript": "^5.3.0"
+  }
+}
